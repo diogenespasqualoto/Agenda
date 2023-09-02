@@ -84,5 +84,7 @@ loop do
             editar_contato
         when codigo == 5
             remover_contato
+        else
+            puts "Essa função não existe"
     end
 end
